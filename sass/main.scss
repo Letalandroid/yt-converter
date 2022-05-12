@@ -54,10 +54,9 @@ main {
                 font-size: 20px;
                 margin-right: 10px;
                 padding-left: 15px;
-                transition: .2s border-radius;
+                border-radius: 20px;
 
                 &:focus, &:hover {
-                    border-radius: 20px;
                     box-shadow: 1px 1px 5px $color-primary;
                 }
 
@@ -77,11 +76,11 @@ main {
                 @extend %border-none;
                 color: #fff;
                 font-size: 20px;
-                transition: .2s border-radius, .2s background-color, .2s filter;
+                border-radius: 20px;
+                transition: .2s background-color, .2s filter;
 
                 &:hover {
                     background-color: #0069d9;
-                    border-radius: 20px;
                     box-shadow: 1px 1px 5px $color-primary;
                 }
 
@@ -162,7 +161,7 @@ main {
 
                     &:hover {
                         background-color: $color-primary;
-                        filter: brightness(95%);
+                        background-color: #58a980;
                         border-radius: 20px;
                         box-shadow: 1px 1px 5px $color-primary;
                     }
